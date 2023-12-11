@@ -42,6 +42,10 @@ app.post("/transcript", async (req, res) => {
   }
 });
 
+app.get("/healthCheck",async(req,res)=>{
+  return res.json("Health Check 200")
+})
+
 // app.post("/upload", upload.single("file"), async (req, res) => {
 //   try {
 //     const uploadUrl = await client.files.upload(req.file.path);
@@ -53,7 +57,7 @@ app.post("/transcript", async (req, res) => {
 // });
 
 
-const port = 8000;
+const port =process.env.PORT;
 
 app.set('port', port);
 const server = app.listen(app.get('port'), ip, () => {
