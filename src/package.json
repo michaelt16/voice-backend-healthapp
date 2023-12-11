@@ -1,0 +1,40 @@
+{
+  "name": "voice-react-native-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelt16/voice-react-native-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelt16/voice-react-native-test/issues"
+  },
+  "homepage": "https://github.com/michaelt16/voice-react-native-test#readme",
+  "dependencies": {
+    "assemblyai": "^4.0.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "spress": "^0.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.5"
+  }
+}
